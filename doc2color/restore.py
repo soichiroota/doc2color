@@ -61,7 +61,7 @@ if __name__ == '__main__':
     model.eval()
 
     doc2color = Doc2Color(bert_model, model)
-    for color_name in ('red', 'green', 'blue', 'black', 'white', 'gray'):
+    for color_name in ('red', 'レッド', '赤', 'あか', 'green', 'グリーン', '緑', 'みどり', 'blue', 'ブルー', '青',  'あお', 'black', 'ブラック', '黒', 'くろ', 'white', 'ホワイト', '白', 'しろ', 'gray', 'グレー', '灰色', 'はいいろ'):
         names = (
             color_name.capitalize(),
             color_name,
